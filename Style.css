@@ -35,35 +35,51 @@ body {
 }
 .content {
 	text-align: left;
-	float: left;
+	width: 700px;
+	height: 200px;
+	border: 1px solid #852833;
+	margin-bottom: 30px;
+	text-indent: 10px;	
 }
 .content h3 {
 	background-color: #c37781;
 	width: 400px;
 	height: 80px;
 	float: left;
+	text-indent: 20px;
 }
 .avatar {
 	background-color: #c37781;
-	width: 300px;
+	width: 219px;
 	height: 80px;
-	float: right;
+	float: left;
+	text-indent: 10px;
+	border-left: 1px solid #852833;
 }
-.pfoto {
-	float: right;
+.photo {
+	background-color: #c37781;
+	float: left;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+}
+.photo p {
 	background-color: #000;
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 	color: #fff;
+	text-align: center;
 }
 .context {
 	float: right;
 }
 .footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
+    width: 100%;
+    background-color: #A4A4A4;
+    color: #fff;
+    float: left;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
 }
